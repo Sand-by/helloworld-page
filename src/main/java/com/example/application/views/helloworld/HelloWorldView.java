@@ -22,7 +22,7 @@ public class HelloWorldView extends HorizontalLayout {
         name = new TextField("Your name");
         sayHello = new Button("Say hello");
         sayHello.addClickListener(e -> {
-            Notification.show("Hello " + name.getValue()).setPosition(Position.MIDDLE);
+            Notification.show("Hello  " + name.getValue()).setPosition(Position.MIDDLE);
         });
 
         setMargin(true);
